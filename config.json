@@ -1,0 +1,16 @@
+{
+    "server": {
+        "client": "http://192.168.138.28:80",
+        "console": "http://192.168.138.28:8000",
+        "cluster": "http://192.168.138.28:8080"
+    },
+    "clientUser": [{
+        "username": "test",
+        "password": "eisoo.com"
+    }],
+    "consoleUser": [{
+        "username": "admin",
+        "password": "eisoo.com"
+    }],
+    "screenshotPath": "C:\\Users\\admin\\Desktop\\tmp"
+}

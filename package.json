@@ -1,0 +1,25 @@
+{
+  "name": "sharewebtest",
+  "version": "1.0.0",
+  "description": "anyshare E2E test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha bootstrap.js tests --recursive --no-timeouts --reporter mochawesome",
+    "test-dev": "yarn test --dev"
+  },
+  "keywords": [
+    "AnyShare",
+    "E2E"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chalk": "^2.4.1",
+    "faker": "^4.1.0",
+    "lodash": "^4.17.10",
+    "mocha": "^5.1.1",
+    "mochawesome": "^3.0.2",
+    "puppeteer": "^1.4.0"
+  }
+}
